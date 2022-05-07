@@ -1,0 +1,7 @@
+D:\TC1 2022\Campo\UI\DemoLinq\bin\Debug\DemoLinq.exe.config
+D:\TC1 2022\Campo\UI\DemoLinq\bin\Debug\DemoLinq.exe
+D:\TC1 2022\Campo\UI\DemoLinq\bin\Debug\DemoLinq.pdb
+D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.csprojAssemblyReference.cache
+D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.csproj.CoreCompileInputs.cache
+D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.exe
+D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.pdb

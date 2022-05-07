@@ -1,0 +1,24 @@
+G:\Campo\UI\UI\bin\Debug\UI.exe.config
+G:\Campo\UI\UI\bin\Debug\UI.exe
+G:\Campo\UI\UI\bin\Debug\UI.pdb
+G:\Campo\UI\UI\bin\Debug\DAL.dll
+G:\Campo\UI\UI\bin\Debug\DomainModel.dll
+G:\Campo\UI\UI\bin\Debug\DAL.pdb
+G:\Campo\UI\UI\bin\Debug\DomainModel.pdb
+G:\Campo\UI\UI\obj\Debug\UI.csprojAssemblyReference.cache
+G:\Campo\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+G:\Campo\UI\UI\obj\Debug\UI.csproj.CopyComplete
+G:\Campo\UI\UI\obj\Debug\UI.exe
+G:\Campo\UI\UI\obj\Debug\UI.pdb
+D:\TC1 2022\Campo\UI\UI\bin\Debug\UI.exe.config
+D:\TC1 2022\Campo\UI\UI\bin\Debug\UI.exe
+D:\TC1 2022\Campo\UI\UI\bin\Debug\UI.pdb
+D:\TC1 2022\Campo\UI\UI\bin\Debug\DAL.dll
+D:\TC1 2022\Campo\UI\UI\bin\Debug\DomainModel.dll
+D:\TC1 2022\Campo\UI\UI\bin\Debug\DAL.pdb
+D:\TC1 2022\Campo\UI\UI\bin\Debug\DomainModel.pdb
+D:\TC1 2022\Campo\UI\UI\obj\Debug\UI.csprojAssemblyReference.cache
+D:\TC1 2022\Campo\UI\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\TC1 2022\Campo\UI\UI\obj\Debug\UI.csproj.CopyComplete
+D:\TC1 2022\Campo\UI\UI\obj\Debug\UI.exe
+D:\TC1 2022\Campo\UI\UI\obj\Debug\UI.pdb

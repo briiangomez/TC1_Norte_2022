@@ -1,0 +1,18 @@
+G:\Campo\UI\DAL\bin\Debug\DAL.dll
+G:\Campo\UI\DAL\bin\Debug\DAL.pdb
+G:\Campo\UI\DAL\bin\Debug\DomainModel.dll
+G:\Campo\UI\DAL\bin\Debug\DomainModel.pdb
+G:\Campo\UI\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\Campo\UI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Campo\UI\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\Campo\UI\DAL\obj\Debug\DAL.dll
+G:\Campo\UI\DAL\obj\Debug\DAL.pdb
+D:\TC1 2022\Campo\UI\DAL\bin\Debug\DAL.dll
+D:\TC1 2022\Campo\UI\DAL\bin\Debug\DAL.pdb
+D:\TC1 2022\Campo\UI\DAL\bin\Debug\DomainModel.dll
+D:\TC1 2022\Campo\UI\DAL\bin\Debug\DomainModel.pdb
+D:\TC1 2022\Campo\UI\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\TC1 2022\Campo\UI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TC1 2022\Campo\UI\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TC1 2022\Campo\UI\DAL\obj\Debug\DAL.dll
+D:\TC1 2022\Campo\UI\DAL\obj\Debug\DAL.pdb

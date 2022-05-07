@@ -1,0 +1,6 @@
+G:\Campo\UI\DomainModel\bin\Debug\DomainModel.dll
+G:\Campo\UI\DomainModel\bin\Debug\DomainModel.pdb
+G:\Campo\UI\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
+G:\Campo\UI\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+G:\Campo\UI\DomainModel\obj\Debug\DomainModel.dll
+G:\Campo\UI\DomainModel\obj\Debug\DomainModel.pdb
