@@ -1,0 +1,5 @@
+D:\Desarrollo\TC1 2022\BLL\bin\Debug\BLL.dll
+D:\Desarrollo\TC1 2022\BLL\bin\Debug\BLL.pdb
+D:\Desarrollo\TC1 2022\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\TC1 2022\BLL\obj\Debug\BLL.dll
+D:\Desarrollo\TC1 2022\BLL\obj\Debug\BLL.pdb

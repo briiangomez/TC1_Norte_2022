@@ -1,0 +1,6 @@
+D:\Desarrollo\TC1 2022\SL\bin\Debug\SL.dll
+D:\Desarrollo\TC1 2022\SL\bin\Debug\SL.pdb
+D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.csprojAssemblyReference.cache
+D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.dll
+D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.pdb

@@ -6,13 +6,17 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL.Contracts;
 using DAL.Factory;
-
+using SL.Services.Extensions;
 namespace UI
 {
     class Program
     {
         static void Main(string[] args)
         {
+           string translatedWord = "hola".Translate("es-AR");
+
+
+
             Customer customer = new Customer() { IdCustomer = Guid.NewGuid(), Name = "Gaston", BirthDate = new DateTime(1992,8,13) };
 
             BLLAgregarCustomer(customer);
@@ -36,6 +40,10 @@ namespace UI
             //{
             //    Console.WriteLine(item.Name);
             //}
+
+
+            //System.Security.Cryptography
+
         }
     }
 }
