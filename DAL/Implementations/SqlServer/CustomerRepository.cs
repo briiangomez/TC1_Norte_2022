@@ -1,6 +1,7 @@
 ﻿using DAL.Contracts;
 using DAL.Tools;
 using DomainModel;
+using SL.Services.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -43,14 +44,21 @@ namespace DAL.Implementations.SqlServer
         #endregion
         public void Add(Customer ojb)
         {
-            SqlParameter[] parameters = new SqlParameter[]
+            try
             {
+                SqlParameter[] parameters = new SqlParameter[]
+                    {
                 new SqlParameter("@IdCustomer", ojb.IdCustomer),
                 new SqlParameter("@Name",ojb.Name),
                 new SqlParameter("@BirthDate",ojb.BirthDate)
-            };
+                    };
 
-            SqlHelper.ExecuteNonQuery(InsertStatement, System.Data.CommandType.Text, parameters);
+                SqlHelper.ExecuteNonQuery(InsertStatement, System.Data.CommandType.Text, parameters);
+            }
+            catch (Exception ex)
+            {
+                ex.Handle(this);
+            }
         }
 
         public void Delete(Guid id)

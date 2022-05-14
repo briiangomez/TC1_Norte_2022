@@ -17,22 +17,29 @@ namespace DAL.Tools
         public static Int32 ExecuteNonQuery(String commandText,
             CommandType commandType, params SqlParameter[] parameters)
         {
-            CheckNullables(parameters);
-
-            using (SqlConnection conn = new SqlConnection(conString))
+            try
             {
-                using (SqlCommand cmd = new SqlCommand(commandText, conn))
+                CheckNullables(parameters);
+
+                using (SqlConnection conn = new SqlConnection(conString))
                 {
-                    // There're three command types: StoredProcedure, Text, TableDirect. The TableDirect 
-                    // type is only for OLE DB.  
-                    cmd.CommandType = commandType;
-                    cmd.Parameters.AddRange(parameters);
+                    using (SqlCommand cmd = new SqlCommand(commandText, conn))
+                    {
+                        // There're three command types: StoredProcedure, Text, TableDirect. The TableDirect 
+                        // type is only for OLE DB.  
+                        cmd.CommandType = commandType;
+                        cmd.Parameters.AddRange(parameters);
 
 
 
-                    conn.Open();
-                    return cmd.ExecuteNonQuery();
+                        conn.Open();
+                        return cmd.ExecuteNonQuery();
+                    }
                 }
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
 
