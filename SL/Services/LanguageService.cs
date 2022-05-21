@@ -8,9 +8,9 @@ namespace SL.Services
 {
     internal static class LanguageService
     {
-        public static string Translate(string word, string language)
+        public static string Translate(string word)
         {
-            return BLL.LanguageManager.Translate(word, language);
+            return BLL.LanguageManager.Translate(word);
         }
     }
 }

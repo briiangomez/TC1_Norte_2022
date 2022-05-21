@@ -5,24 +5,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SL.Services.Extensions;
+using System.Threading;
+using System.Globalization;
+
 namespace UI
 {
     class Program
     {
         static void Main(string[] args)
         {
-          // string translatedWord = "hola".Translate("es-AR");
+            //SEGURIDAD -> LOGIN, USUARIO-ROLES-PERMISOS
 
 
 
-            Customer customer = new Customer() { IdCustomer = Guid.NewGuid(), Name = "Gaston", BirthDate = new DateTime(1984,8,13) };
+            Clase13052022();
+        }
+
+        private static void Clase13052022()
+        {
+            Console.WriteLine(Thread.CurrentThread.CurrentUICulture.Name);
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-AR");
+
+            Console.WriteLine(Thread.CurrentThread.CurrentUICulture.Name);
+
+            string translatedWordEspañol = "hola".Translate();
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-GB");
+
+            string translatedWordIngles = "hola".Translate();
+
+            string encryptedString = SL.Services.CryptographyService.EncryptString("hola", "frase");
+
+            string decryptedString = SL.Services.CryptographyService.DecryptString(encryptedString, "frase");
+
+            string hashedString = SL.Services.CryptographyService.Hash("BrianSeVaACordoba2022.;");
+
+            Customer customer = new Customer() { IdCustomer = Guid.NewGuid(), Name = "Gaston", BirthDate = new DateTime(1984, 8, 13) };
 
             //BLLAgregarCustomer(customer);
 
             try
             {
                 BLL.Services.CustomerService.Current.Add(customer);
-               
+
                 Console.WriteLine("Cliente agregado con exito!! ");
             }
             catch (Exception ex)

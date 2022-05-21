@@ -59,6 +59,10 @@
       <Project>{a783ca91-1531-4d11-b838-08ecdc3780fd}</Project>
       <Name>DomainModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SL\SL.csproj">
+      <Project>{6AACBD10-8546-4059-A561-C3C135463678}</Project>
+      <Name>SL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Tools\staments.snippet" />

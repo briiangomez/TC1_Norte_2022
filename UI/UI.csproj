@@ -48,14 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="I18n\idioma.en-GB">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="I18n\idioma.es-AR">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{6f1eb4a4-be52-468d-bd3f-e744791ec9aa}</Project>
-      <Name>DAL</Name>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{92197c9e-3004-495a-bb1d-73c7ac2b71e7}</Project>
+      <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DomainModel\DomainModel.csproj">
       <Project>{a783ca91-1531-4d11-b838-08ecdc3780fd}</Project>

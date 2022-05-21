@@ -5,3 +5,10 @@ D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.csprojAssemblyReference.cache
 D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.csproj.CoreCompileInputs.cache
 D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.exe
 D:\TC1 2022\Campo\UI\DemoLinq\obj\Debug\DemoLinq.pdb
+F:\TC1 2022\DemoLinq\bin\Debug\DemoLinq.exe.config
+F:\TC1 2022\DemoLinq\bin\Debug\DemoLinq.exe
+F:\TC1 2022\DemoLinq\bin\Debug\DemoLinq.pdb
+F:\TC1 2022\DemoLinq\obj\Debug\DemoLinq.csprojAssemblyReference.cache
+F:\TC1 2022\DemoLinq\obj\Debug\DemoLinq.csproj.CoreCompileInputs.cache
+F:\TC1 2022\DemoLinq\obj\Debug\DemoLinq.exe
+F:\TC1 2022\DemoLinq\obj\Debug\DemoLinq.pdb

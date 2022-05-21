@@ -5,6 +5,7 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SL.DAL
@@ -13,9 +14,11 @@ namespace SL.DAL
     {
         private static string pathBase = ConfigurationManager.AppSettings["PathDefaultLanguageName"];
 
-        public static string Translate(string word, string language)
+        public static string Translate(string word)
         {
-            using(StreamReader str = new StreamReader(pathBase + language))
+            string currentCulture = Thread.CurrentThread.CurrentUICulture.Name;
+
+            using (StreamReader str = new StreamReader(pathBase + currentCulture))
             {
                 while(!str.EndOfStream)
                 {

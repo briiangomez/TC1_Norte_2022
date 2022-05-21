@@ -9,15 +9,15 @@ namespace SL.BLL
 {
     internal static class LanguageManager
     {
-        public static string Translate(string word, string language)
+        public static string Translate(string word)
         {
             try
             {
-                return DAL.LanguageDAL.Translate(word, language);
+                return DAL.LanguageDAL.Translate(word);
             }
             catch (WordNotFoundException ex)
             {
-                DAL.LanguageDAL.Add(word, String.Empty, language);
+                DAL.LanguageDAL.Add(word, String.Empty, "DefaultCulture");
                 throw;
             }
         }

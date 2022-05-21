@@ -8,9 +8,9 @@ namespace SL.Services.Extensions
 {
     public static class StringExtension
     {
-        public static string Translate(this string word, string language)
+        public static string Translate(this string word)
         {
-            return BLL.LanguageManager.Translate(word, language);
+            return BLL.LanguageManager.Translate(word);
         }
     }
 }

@@ -4,3 +4,8 @@ G:\Campo\UI\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
 G:\Campo\UI\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
 G:\Campo\UI\DomainModel\obj\Debug\DomainModel.dll
 G:\Campo\UI\DomainModel\obj\Debug\DomainModel.pdb
+F:\TC1 2022\DomainModel\bin\Debug\DomainModel.dll
+F:\TC1 2022\DomainModel\bin\Debug\DomainModel.pdb
+F:\TC1 2022\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+F:\TC1 2022\DomainModel\obj\Debug\DomainModel.dll
+F:\TC1 2022\DomainModel\obj\Debug\DomainModel.pdb

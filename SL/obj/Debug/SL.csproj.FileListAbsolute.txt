@@ -4,3 +4,14 @@ D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.csprojAssemblyReference.cache
 D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
 D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.dll
 D:\Desarrollo\TC1 2022\SL\obj\Debug\SL.pdb
+F:\TC1 2022\SL\bin\Debug\SL.dll
+F:\TC1 2022\SL\bin\Debug\SL.pdb
+F:\TC1 2022\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
+F:\TC1 2022\SL\obj\Debug\SL.dll
+F:\TC1 2022\SL\obj\Debug\SL.pdb
+G:\TC1 2022\SL\obj\Debug\SL.csprojAssemblyReference.cache
+G:\TC1 2022\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
+G:\TC1 2022\SL\obj\Debug\SL.dll
+G:\TC1 2022\SL\obj\Debug\SL.pdb
+G:\TC1 2022\SL\bin\Debug\SL.dll
+G:\TC1 2022\SL\bin\Debug\SL.pdb
